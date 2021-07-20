@@ -1,0 +1,69 @@
+html, body{
+      width: 100;
+      height: 100%;
+    }
+    body{
+      margin: 0;
+      background-color: rgba(240, 235, 248);
+    }
+
+    #header{
+      width: 100%;
+      height: 7%;
+      background-color: black;
+      position: relative;
+    }
+    #header span{
+      position: absolute;
+      top: 55%; left: 50%;
+      width: auto;
+      transform: translate(-50%, -50%);
+      font-size: 2.5em;
+      font-family: 'Black Han Sans', sans-serif;
+      cursor: not-allowed;
+      color: white;
+    }
+
+    #main{
+      width: 100%;
+      height: 90%;
+      position: relative;
+      padding-bottom: 10%;
+    }
+    #main_container{
+      position: absolute;
+      width: 90%;
+      height: 93%;
+      top: 50%; left: 50%;
+      transform: translate(-52%, -50%);
+      text-align: center;
+    }
+    #intro{
+      width: 100%;
+      height: 30px;
+    }
+    #intro div{
+      display: inline-block;
+    }
+    #intro span{
+      font-family: 'Noto Sans KR', sans-serif;
+      font-size: 2em;
+      font-weight: 300;
+      margin-bottom: 10px;
+    }
+    .surveyBox{
+      width: 98%;
+      padding: 3%;
+      background-color: rgba(255, 214, 170, 0.8);
+      /*background-color: rgba(190, 234, 200, 0.7);*/
+      display: inline-block;
+      text-align: left;
+      border-radius: 10px;
+      margin-top: 2%;
+      cursor: pointer;
+    }
+    .surveyBox #title{
+      font-family: 'Noto Sans KR', sans-serif;
+      font-weight: 500;
+      font-size: 3em;
+    }
